@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GitHubSearchSuite">
+    <test name="GitHubSearchTest">
+        <parameter name="Selenium" value="WebDriver" />
+        <parameter name="Selenium documentation" value="WebDriver: Advanced Usage" />
+        <classes>
+            <class name="GitHubSearchTest" />
+        </classes>
+    </test>
+</suite>
